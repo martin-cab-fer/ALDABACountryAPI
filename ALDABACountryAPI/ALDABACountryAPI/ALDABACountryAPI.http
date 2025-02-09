@@ -1,0 +1,6 @@
+@ALDABACountryAPI_HostAddress = https://localhost:7098
+
+GET {{ALDABACountryAPI_HostAddress}}/country/Spain
+Accept: application/json
+
+###
