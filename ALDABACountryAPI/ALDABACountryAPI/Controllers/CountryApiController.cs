@@ -85,7 +85,7 @@ namespace ALDABACountryAPI.Controllers
         /// <response code="500">En caso de surgir un error inesperado</response>
         /// <response code="503">En caso de que restcountries.com no esté disponible</response>
         [HttpGet]
-        [Route("{nameOrCode?}/neigbors")]
+        [Route("{nameOrCode?}/neighbors")]
         public async Task<ActionResult> GetAdjacentByName(string nameOrCode)
         {
             List<string> adjacentCodes = new List<string>();
